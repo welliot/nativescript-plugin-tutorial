@@ -1,0 +1,14 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo" 
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+    
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Home"></Label>
+    </ActionBar>
+
+    <GridLayout rows="auto, auto">
+        <!-- Add your page content here -->
+        <Label row="0" text="{{ message }}"></Label>
+        <Label row="1" text="{{ greeting }}"></Label>
+    </GridLayout>
+</Page>
